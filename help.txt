@@ -1,0 +1,11 @@
+exit: terminates program
+help: shows this text
+list: list files in directory
+dir .\folder: goes back one folder and opens folder folder
+find file: prints all directories of file within current directory
+create file.txt: creates a file in current directory named file.txt
+delete file.txt: deletes a file in current directory named file.txt
+write file.txt "text": writes "text" to file.txt in current directory
+write file.txt 5 "text": writes "text" to line 5 of file.txt in current directory
+read file.txt: prints context of file.txt in current directory
+info file.txt: prints file information of file.txt in current directory
